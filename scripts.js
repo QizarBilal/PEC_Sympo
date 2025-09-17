@@ -15,7 +15,7 @@ function initializeLoadingScreen() {
         { id: 'line1', text: 'Department of Computer Science and Engineering' },
         { id: 'line2', text: 'Priyadarshini Engineering College' },
         { id: 'line3', text: 'Presents' },
-        { id: 'line4', text: 'InterCollege Symposium - TechNova 2025' }
+        { id: 'line4', text: 'InterCollege Symposium - CynoSurE 2k25' }
     ];
     
     let currentLine = 0;
@@ -523,9 +523,9 @@ document.addEventListener('DOMContentLoaded', preloadResources);
 
 // SEO and meta tag updates
 function updateMetaTags() {
-    const title = 'TechNova 2025 - Perseverance, Endurance, Commitment | Priyadarshini Engineering College';
-    const description = 'Join TechNova 2025, the premier InterCollege Technical Symposium by Computer Science & Engineering Department, Priyadarshini Engineering College. Participate in exciting technical and non-technical events.';
-    
+    const title = 'CynoSurE - Perseverance, Endurance, Commitment | Priyadarshini Engineering College';
+    const description = 'Join CynoSurE, the premier InterCollege Technical Symposium by Computer Science & Engineering Department, Priyadarshini Engineering College. Participate in exciting technical and non-technical events.';
+
     document.title = title;
     
     const metaDescription = document.querySelector('meta[name="description"]');
